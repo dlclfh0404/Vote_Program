@@ -10,7 +10,7 @@ create table tbl_vote_202005 (
 	   v_confirm char(1)					-- 유권자확인
 );
 
-desc table tbl_vote_202005; -- desc
+desc tbl_vote_202005; -- desc
 delete table tbl_vote_202005; -- delete
 
 -- Insert table TBL_VOTE_202005 --
@@ -76,7 +76,7 @@ create table tbl_member_202005(
 	   m_city   varchar2(20)				-- 지역
 );
 
-desc table tbl_member_202005; -- desc
+desc tbl_member_202005; -- desc
 delete table tbl_member_202005; -- delete
 
 
@@ -100,7 +100,7 @@ create table tbl_party_202005(
 	   p_tel3    char(4)					 -- 전화번호3
 );
 
-desc table tbl_party_202005; -- desc
+desc tbl_party_202005; -- desc
 delete table tbl_party_202005; -- delete
 
 
