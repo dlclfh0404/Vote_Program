@@ -11,7 +11,7 @@ create table tbl_vote_202005 (
 );
 
 desc tbl_vote_202005; -- desc
-delete table tbl_vote_202005; -- delete
+delete from tbl_vote_202005; -- delete
 
 -- Insert table TBL_VOTE_202005 --
 insert into tbl_vote_202005 
@@ -77,7 +77,7 @@ create table tbl_member_202005(
 );
 
 desc tbl_member_202005; -- desc
-delete table tbl_member_202005; -- delete
+delete from tbl_member_202005; -- delete
 
 
 -- Insert table tbl_member_202005 --
@@ -101,7 +101,7 @@ create table tbl_party_202005(
 );
 
 desc tbl_party_202005; -- desc
-delete table tbl_party_202005; -- delete
+delete from tbl_party_202005; -- delete
 
 
 -- Insert table tbl_party tbl_party_202005 --
